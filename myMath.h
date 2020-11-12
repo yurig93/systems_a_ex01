@@ -4,5 +4,13 @@
 
 #ifndef SYSTEMS_A_EX01_MYMATH_H
 #define SYSTEMS_A_EX01_MYMATH_H
+#define CONST_EULER_NUMBER 2.718281828459045
 
+
+float add(float x , float y);
+float sub(float x , float y);
+double mul(double x , int y);
+double div(double x, int y);
+double Exponent(int x);
+double Power(double x , int y);
 #endif //SYSTEMS_A_EX01_MYMATH_H

@@ -2,8 +2,7 @@
 // Created by Yuri Grigorian on 12/11/2020.
 //
 
-#include "power.h"
-#include "basicMath.h"
+#include "myMath.h"
 
 double Exponent(int x) {
     return Power(CONST_EULER_NUMBER, x);
