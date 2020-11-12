@@ -46,4 +46,4 @@ $(TARGET_MAIN)s: $(TARGET_MAIN).o $(TARGET_MATH_LIB).a
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/maind $(ODIR)/mains $(ODIR)/*.o $(ODIR)/*.so $(ODIR)/*.a *~ core $(INCDIR)/*~
+	rm -f $(ODIR)/maind $(ODIR)/mains $(ODIR)/*.o $(ODIR)/*.so $(ODIR)/*.a *~ $(INCDIR)/*~
